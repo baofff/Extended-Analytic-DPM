@@ -235,7 +235,7 @@ def get_save_ms_eps_config(**hparams):
     kwargs.batch_size = hparams['batch_size']
     kwargs.schedule = hparams['schedule']
     kwargs.n_samples = hparams.get('n_samples', None)
-    kwargs.partition = hparams.get('partition', 'test')
+    kwargs.partition = hparams.get('partition', 'train_val')
     return config
 
 
