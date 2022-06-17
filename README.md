@@ -1,6 +1,6 @@
 # Extended Analytic-DPM
 
-* This is the official implementation for Estimating the Optimal Covariance with Imperfect Mean in Diffusion Probabilistic Models (Accepted in ICML 2022). It extends [Analytic-DPM](https://arxiv.org/abs/2201.06503) under the following two settings:
+* This is the official implementation for [Estimating the Optimal Covariance with Imperfect Mean in Diffusion Probabilistic Models](https://arxiv.org/abs/2206.07309) (Accepted in ICML 2022). It extends [Analytic-DPM](https://arxiv.org/abs/2201.06503) under the following two settings:
     * The reverse process adpots complicated covariance matrices dependent to states, instead of simple scalar variances (which motivates the SN-DPM in the paper).
     * The score-based model has some error w.r.t. the exact score function (which motivates NPR-DPM in the paper).
 
